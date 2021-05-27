@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export default function Items(props) {
   
   let coffees = Object.keys(props.category)
@@ -21,7 +20,7 @@ export default function Items(props) {
             <p>Size: {props.category[coffees][item].size}</p>
             <p>Price: ${props.category[coffees][item].price}</p>
             <p>Caffeine Content: {props.category[coffees][item].caffeine}mg</p>
-            <img alt={item} src={'/images/' + flattenedString + ".webp" } className="menu-img" />
+            <img alt={item} src={`/images/${flattenedString}.webp`} className="menu-img" />
             <button onClick={() => {props.addToCart(newItem)}}>Add {item} to Cart</button>
           </div>
         )

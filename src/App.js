@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
-import Cart from './components/Cart'
-import Home from './components/Home'
-import Categories from './components/Categories'
-import Items from './components/Items'
+import Cart from './Cart'
+import Home from './Home'
+import Categories from './Categories'
+import Items from './Items'
 
 function App() {
   const [cart, setCart] = useState([])
@@ -35,10 +35,6 @@ function App() {
           <li><Link to="/categories">Menu</Link></li>
         </ul>
       </nav>
-
-
-      
-
 
       <Switch>
         <Route path="/" exact component={Home} />

@@ -8,7 +8,7 @@ export default function Cart(props) {
   
   let totalZero = false
 
-  if (total == 0) {
+  if (total === 0) {
     totalZero = true
   }
 

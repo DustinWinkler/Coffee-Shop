@@ -13,7 +13,7 @@ export default function Categories(props) {
 				});
 				
 				return (
-						<Link className="menu-link" to={"/coffee-shop/menu/" + string}>
+						<Link className="menu-link" to={"/menu/" + string}>
 							{cat}
 						</Link>
 				)

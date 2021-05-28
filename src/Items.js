@@ -13,7 +13,7 @@ export default function Items(props) {
         let newItem = {"name": item, "price": props.category[coffees][item].price}
 
         let flattenedString = item.split(' ').join('')
-        let imgURL = './build/images/' + flattenedString + '.webp'
+        let imgURL = './images/' + flattenedString + '.webp'
 
         return (
           <div className="item-card">

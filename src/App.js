@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import Cart from './Cart'
 import Home from './Home'
 import Categories from './Categories'
@@ -30,16 +30,16 @@ function App() {
     <Router>
       <nav>
         <ul>
-          <li><Link to="/coffee-shop">Home</Link></li>
-          <li><Link to="/coffee-shop/cart">{"Cart • " + cart.length}</Link></li>
-          <li><Link to="/coffee-shop/menu">Menu</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/cart">{"Cart • " + cart.length}</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
         </ul>
       </nav>
 
       <Switch>
-        <Route path="/coffee-shop" exact component={Home} />
-        <Route path="/coffee-shop/cart" exact render={(props) => (<Cart {...props} removeFromCart={removeCartItem} cart={cart} />)} />
-        <Route path="/coffee-shop/menu" exact 
+        <Route path="/" exact component={Home} />
+        <Route path="/cart" exact render={(props) => (<Cart {...props} removeFromCart={removeCartItem} cart={cart} />)} />
+        <Route path="/menu" exact 
         render={(props) => (<Categories {...props} categories={categories} />
   )} />
         {categories.map((cat, index) => {
@@ -52,7 +52,7 @@ function App() {
           return (
             <Route 
               key={'meme'}
-              exact path={'/coffee-shop/menu/' + string}
+              exact path={'/menu/' + string}
               render={(props) => (<Items addToCart={addCartItem} category={data[index]} />)}
             />
           )

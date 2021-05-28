@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"/coffee-shop"}>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>

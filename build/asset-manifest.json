@@ -1,20 +1,37 @@
 {
   "files": {
     "main.css": "/Coffee-Shop/static/css/main.bbc67774.chunk.css",
-    "main.js": "/Coffee-Shop/static/js/main.b0fd5e83.chunk.js",
-    "main.js.map": "/Coffee-Shop/static/js/main.b0fd5e83.chunk.js.map",
+    "main.js": "/Coffee-Shop/static/js/main.5a1f8689.chunk.js",
+    "main.js.map": "/Coffee-Shop/static/js/main.5a1f8689.chunk.js.map",
     "runtime-main.js": "/Coffee-Shop/static/js/runtime-main.58aad867.js",
     "runtime-main.js.map": "/Coffee-Shop/static/js/runtime-main.58aad867.js.map",
     "static/js/2.72283cb0.chunk.js": "/Coffee-Shop/static/js/2.72283cb0.chunk.js",
     "static/js/2.72283cb0.chunk.js.map": "/Coffee-Shop/static/js/2.72283cb0.chunk.js.map",
     "index.html": "/Coffee-Shop/index.html",
     "static/css/main.bbc67774.chunk.css.map": "/Coffee-Shop/static/css/main.bbc67774.chunk.css.map",
-    "static/js/2.72283cb0.chunk.js.LICENSE.txt": "/Coffee-Shop/static/js/2.72283cb0.chunk.js.LICENSE.txt"
+    "static/js/2.72283cb0.chunk.js.LICENSE.txt": "/Coffee-Shop/static/js/2.72283cb0.chunk.js.LICENSE.txt",
+    "static/media/BlondeRoast.aabaea6b.webp": "/Coffee-Shop/static/media/BlondeRoast.aabaea6b.webp",
+    "static/media/CaffeAmericano.d139ad73.webp": "/Coffee-Shop/static/media/CaffeAmericano.d139ad73.webp",
+    "static/media/CaffeMocha.9094a34b.webp": "/Coffee-Shop/static/media/CaffeMocha.9094a34b.webp",
+    "static/media/Cappucino.f9550572.webp": "/Coffee-Shop/static/media/Cappucino.f9550572.webp",
+    "static/media/CaramelMacchiato.ecafaf9c.webp": "/Coffee-Shop/static/media/CaramelMacchiato.ecafaf9c.webp",
+    "static/media/CaramelRibbonCrunchFrappuccino.00ac25e7.webp": "/Coffee-Shop/static/media/CaramelRibbonCrunchFrappuccino.00ac25e7.webp",
+    "static/media/ChaiTea.3762e112.webp": "/Coffee-Shop/static/media/ChaiTea.3762e112.webp",
+    "static/media/EspressoShot.6d46af35.webp": "/Coffee-Shop/static/media/EspressoShot.6d46af35.webp",
+    "static/media/HoneyCitrusMintTea.9469201d.webp": "/Coffee-Shop/static/media/HoneyCitrusMintTea.9469201d.webp",
+    "static/media/IcedBlackTeaLemonade.c9b362a3.webp": "/Coffee-Shop/static/media/IcedBlackTeaLemonade.c9b362a3.webp",
+    "static/media/IcedMatchaTeaLatte.9aa9030d.webp": "/Coffee-Shop/static/media/IcedMatchaTeaLatte.9aa9030d.webp",
+    "static/media/LondonFogTeaLatte.d641d6e9.webp": "/Coffee-Shop/static/media/LondonFogTeaLatte.d641d6e9.webp",
+    "static/media/MangoBlackTea.99349bcc.webp": "/Coffee-Shop/static/media/MangoBlackTea.99349bcc.webp",
+    "static/media/MatchaTeaLatte.41821697.webp": "/Coffee-Shop/static/media/MatchaTeaLatte.41821697.webp",
+    "static/media/MochaCookieCrumbleFrappuccino.f7631e71.webp": "/Coffee-Shop/static/media/MochaCookieCrumbleFrappuccino.f7631e71.webp",
+    "static/media/StrawberryFunnelCakeFrappuccino.130e1c8f.webp": "/Coffee-Shop/static/media/StrawberryFunnelCakeFrappuccino.130e1c8f.webp",
+    "static/media/UnsweetenedPeachTea.4e2c2446.webp": "/Coffee-Shop/static/media/UnsweetenedPeachTea.4e2c2446.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.58aad867.js",
     "static/js/2.72283cb0.chunk.js",
     "static/css/main.bbc67774.chunk.css",
-    "static/js/main.b0fd5e83.chunk.js"
+    "static/js/main.5a1f8689.chunk.js"
   ]
 }

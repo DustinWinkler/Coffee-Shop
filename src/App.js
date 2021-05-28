@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {HashRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import Cart from './Cart'
 import Home from './Home'
 import Categories from './Categories'
@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
